@@ -51,7 +51,7 @@
     ]
   },
   "dependencies": {
-    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#master",
+    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#update-snapshot-dep",
     "service-runner": "^2.4.6"
   },
   "optionalDependencies": {
