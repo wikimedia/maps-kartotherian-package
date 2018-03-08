@@ -32,26 +32,8 @@
     "url": "https://phabricator.wikimedia.org/tag/maps/"
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
-  "kartotherian": {
-    "registerSourceLibs": [
-      "tilelive-bridge",
-      "tilelive-vector",
-      "kartotherian-autogen",
-      "kartotherian-cassandra",
-      "kartotherian-postgres",
-      "kartotherian-demultiplexer",
-      "kartotherian-layermixer",
-      "kartotherian-overzoom",
-      "kartotherian-substantial"
-    ],
-    "requestHandlers": [
-      "kartotherian-geoshapes",
-      "kartotherian-maki",
-      "kartotherian-snapshot"
-    ]
-  },
   "dependencies": {
-    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#update-deps2",
+    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#v0.0.34",
     "service-runner": "^2.4.8"
   },
   "optionalDependencies": {
