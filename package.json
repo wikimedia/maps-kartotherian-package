@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#v0.0.38",
+    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#master",
     "service-runner": "^2.4.8"
   },
   "optionalDependencies": {
