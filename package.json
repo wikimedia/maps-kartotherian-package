@@ -81,16 +81,8 @@
         "libproj-dev",
         "libtiff-dev",
         "libwebp5",
-        {
-          "repo_url": "https://apt.wikimedia.org/wikimedia",
-          "release": "jessie-wikimedia",
-          "pool": "backports",
-          "packages": [
-            "libmapbox-variant-dev",
-            "libmapnik-dev",
-            "mapnik-utils"
-          ]
-        }
+        "libmapnik-dev",
+        "mapnik-utils"
       ]
     }
   }
