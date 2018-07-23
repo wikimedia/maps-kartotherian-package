@@ -1,3 +1,2 @@
-debian: 'debian:jessie'
+debian: 'debian:stretch'
 ubuntu: 'ubuntu:14.04'
-
