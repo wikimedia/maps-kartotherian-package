@@ -33,11 +33,11 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "kartotherian": "git+https://github.com/kartotherian/kartotherian.git#master",
+    "kartotherian": "1.1.0-alpha",
     "@kartotherian/meddo": "kartotherian/meddo#master",
     "@kartotherian/brighmed": "kartotherian/brighmed#master",
     "@kartotherian/cleartables": "ClearTables/ClearTables#wm",
-    "service-runner": "^2.6.4"
+    "service-runner": "^2.6.13"
   },
   "optionalDependencies": {
     "bunyan-prettystream": "*"
