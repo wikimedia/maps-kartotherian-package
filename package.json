@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "@opentesseract/kartotherian": "^1.1.3-alpha.0",
+    "kartotherian": "^1.1.3-alpha.0",
     "@kartotherian/meddo": "kartotherian/meddo#master",
     "@kartotherian/brighmed": "kartotherian/brighmed#master",
     "@kartotherian/cleartables": "ClearTables/ClearTables#wm",
