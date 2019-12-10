@@ -33,10 +33,7 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "@kartotherian/brighmed": "kartotherian/brighmed#master",
-    "@kartotherian/cleartables": "ClearTables/ClearTables#wm",
-    "@kartotherian/meddo": "kartotherian/meddo#master",
-    "kartotherian": "^1.1.5-wmf.0",
+    "kartotherian": "^1.1.6-wmf.0",
     "service-runner": "^2.7.3"
   },
   "optionalDependencies": {
