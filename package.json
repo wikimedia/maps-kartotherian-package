@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "kartotherian": "^1.1.6-wmf.0",
+    "@wikimedia/kartotherian": "^1.1.7",
     "service-runner": "^2.7.3"
   },
   "optionalDependencies": {
