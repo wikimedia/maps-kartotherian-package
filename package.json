@@ -56,7 +56,7 @@
   },
   "deploy": {
     "node": "10.15.2",
-    "target": "debian",
+    "target": "debian:stretch",
     "install_opts": [
       "--build-from-source=@kartotherian/mapnik"
     ],
