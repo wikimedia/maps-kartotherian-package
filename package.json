@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "@wikimedia/kartotherian": "^1.1.8-beta.2",
+    "@wikimedia/kartotherian": "^1.1.8-beta.3",
     "service-runner": "^2.8.3"
   },
   "optionalDependencies": {
