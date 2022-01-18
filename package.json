@@ -33,8 +33,9 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "@wikimedia/kartotherian": "^1.1.7",
-    "service-runner": "^2.7.3"
+    "@wikimedia/kartotherian": "^1.1.10",
+    "@wikimedia/kartotherian-tilelive-switch": "0.0.1",
+    "service-runner": "^2.9.0"
   },
   "optionalDependencies": {
     "bunyan-prettystream": "*"
@@ -56,7 +57,7 @@
   },
   "deploy": {
     "node": "10.15.2",
-    "target": "debian:stretch",
+    "target": "debian:buster",
     "install_opts": [
       "--build-from-source=@kartotherian/mapnik"
     ],
@@ -80,17 +81,10 @@
         "libmapbox-variant-dev",
         "libboost-program-options-dev",
         "libboost-thread-dev",
-        {
-          "repo_url": "https://apt.wikimedia.org/wikimedia",
-          "release": "stretch-wikimedia",
-          "pool": "main",
-          "packages": [
-            "libmapnik-dev",
-            "mapnik-utils",
-            "mapnik-doc",
-            "libmapnik3.0"
-          ]
-        }
+        "libmapnik-dev",
+        "mapnik-utils",
+        "mapnik-doc",
+        "libmapnik3.0"
       ]
     }
   }
