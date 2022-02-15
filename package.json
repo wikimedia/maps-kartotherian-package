@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/kartotherian/kartotherian",
   "dependencies": {
-    "@wikimedia/kartotherian": "^1.1.12",
+    "@wikimedia/kartotherian": "^1.1.13",
     "@wikimedia/kartotherian-tilelive-switch": "0.0.1",
     "service-runner": "^2.9.0"
   },
